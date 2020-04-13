@@ -1,5 +1,7 @@
 # wsr-public
 
+Live platform : https://worldsituationroom.com/
+
 ## Open Data pipeline to model COVID-19 for WorldSituationRoom.com 
 
 
