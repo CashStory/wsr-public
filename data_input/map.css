@@ -1,0 +1,21 @@
+body{
+    margin:0;
+}
+@media (max-width:570px) {
+    .modebar-container{
+        display:none;
+    }   
+    .mapboxgl-map{
+        left:0 !important;
+        width: 100% !important;
+    } 
+    .mapboxgl-canvas {
+        width: 100% !important;
+    }
+    .infolayer {
+       transform: scale(0.5, 0.5);
+    }
+    g .cbcoloraxis {
+        transform: translate(450px, 120px) !important;
+    }
+}
