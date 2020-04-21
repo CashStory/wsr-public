@@ -4,9 +4,16 @@ body{
 .modebar-container{
     display:none;
 }  
-.svg-container {
-    margin_top: -60px;
+.mapboxgl-ctrl-bottom-right{
+    display:none;
 }
+.svg-container {
+    margin-top: -60px !important;
+}
+
+/* The element to apply the animation to */
+
+
 @media (max-width:570px) {
     .mapboxgl-map{
         left:0 !important;
@@ -19,6 +26,6 @@ body{
        transform: scale(0.5, 0.5);
     }
     g .cbcoloraxis {
-        transform: translate(450px, 120px) !important;
+        transform: translate(420px, 120px) !important;
     } 
 }
