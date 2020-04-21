@@ -1,3 +1,3 @@
-.ipnb_checkpoints
+*/.ipnb_checkpoints
 data_output/*
 out_*
