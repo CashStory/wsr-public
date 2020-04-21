@@ -3,7 +3,10 @@ body{
 }
 .modebar-container{
     display:none;
-}   
+}  
+.svg-container {
+    margin_top: -60px;
+}
 @media (max-width:570px) {
     .mapboxgl-map{
         left:0 !important;
@@ -17,5 +20,5 @@ body{
     }
     g .cbcoloraxis {
         transform: translate(450px, 120px) !important;
-    }
+    } 
 }
