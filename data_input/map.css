@@ -1,10 +1,10 @@
 body{
     margin:0;
 }
+.modebar-container{
+    display:none;
+}   
 @media (max-width:570px) {
-    .modebar-container{
-        display:none;
-    }   
     .mapboxgl-map{
         left:0 !important;
         width: 100% !important;
