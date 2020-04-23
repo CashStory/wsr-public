@@ -1,5 +1,6 @@
 body{
     margin:0;
+    margin-top: -60px;
 }
 .modebar-container{
     display:none;
@@ -7,16 +8,13 @@ body{
 .mapboxgl-ctrl-bottom-right{
     display:none;
 }
-.svg-container {
-    margin-top: -60px !important;
-}
-
-/* The element to apply the animation to */
 
 
 @media (max-width:570px) {
+    .main-svg {
+        filter: drop-shadow( 0px 0px 10px rgba(255, 255, 255, .7));
+    }
     .mapboxgl-map{
-        left:0 !important;
         width: 100% !important;
     } 
     .mapboxgl-canvas {
@@ -24,8 +22,9 @@ body{
     }
     .infolayer {
        transform: scale(0.5, 0.5);
+       text-shadow: 0px 0px 5px #FFFFFF;
     }
     g .cbcoloraxis {
-        transform: translate(420px, 120px) !important;
+        transform: translate(320px, 120px) !important;
     } 
 }
