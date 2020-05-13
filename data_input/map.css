@@ -1,0 +1,30 @@
+body{
+    margin:0;
+    margin-top: -60px;
+}
+.modebar-container{
+    display:none;
+}  
+.mapboxgl-ctrl-bottom-right{
+    display:none;
+}
+
+
+@media (max-width:570px) {
+    .main-svg {
+        filter: drop-shadow( 0px 0px 10px rgba(255, 255, 255, .7));
+    }
+    .mapboxgl-map{
+        width: 100% !important;
+    } 
+    .mapboxgl-canvas {
+        width: 100% !important;
+    }
+    .infolayer {
+       transform: scale(0.5, 0.5);
+       text-shadow: 0px 0px 5px #FFFFFF;
+    }
+    g .cbcoloraxis {
+        transform: translate(320px, 120px) !important;
+    } 
+}
