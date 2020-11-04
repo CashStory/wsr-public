@@ -1,3 +1,5 @@
 */.ipnyb_checkpoints/*
 data_output/*
+*checkpoints.ipynb
+output/*
 out_*
