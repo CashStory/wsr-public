@@ -1,9 +1,10 @@
-# wsr-public
+# World situation room
 
 Live platform : https://worldsituationroom.com/
 
-## Open Data pipeline to model COVID-19 for WorldSituationRoom.com 
+This repo is deployed on [Naas](https://naas.ai)
 
+## Open Data pipeline to model COVID-19 for WorldSituationRoom.com 
 
 At a time of unprecedented uncertainty and volatility, our mission is to provide a single source of accurate and timely information about health and economic data.
 
